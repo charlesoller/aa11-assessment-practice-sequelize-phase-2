@@ -8,7 +8,56 @@ const { Superhero } = require('../models');
   // just need to make sense based from the migration and model files.
 
 const validSuperheros = [
-  // Your code here 
+  {
+    name: "JIMMY",
+    alias: "Spiderman",
+    affiliation: "Justice League",
+    heightCm: 209,
+    isMutant: false,
+    race: "mexican",
+    universe: "DC",
+    releaseYear: 1939
+  },
+  {
+    name: "MAXWELL",
+    alias: "Batman",
+    affiliation: "Justice League",
+    heightCm: 209,
+    isMutant: false,
+    race: "mexican",
+    universe: "DC",
+    releaseYear: 1940
+  },
+  {
+    name: "CHARLES",
+    alias: "Thorrr",
+    affiliation: "Justice League",
+    heightCm: 209,
+    isMutant: false,
+    race: "mexican",
+    universe: "DC",
+    releaseYear: 1941
+  },
+  {
+    name: "BOBBY",
+    alias: "Hullkkkkkk",
+    affiliation: "Justice League",
+    heightCm: 209,
+    isMutant: false,
+    race: "mexican",
+    universe: "DC",
+    releaseYear: 1942
+  },
+  {
+    name: "ROBERTO",
+    alias: "Captain America",
+    affiliation: "Justice League",
+    heightCm: 209,
+    isMutant: false,
+    race: "mexican",
+    universe: "DC",
+    releaseYear: 1943
+  },
 ];
 
 module.exports = {
